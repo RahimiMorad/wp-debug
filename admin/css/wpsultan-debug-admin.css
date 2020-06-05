@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /** WordPress 3.8 Fix **/
+.form-table th {
+    padding: 20px 10px;
+}
+
+#wpbody-content .metabox-holder {
+    padding-top: 5px;
+}
+
+.wpsa-image-preview img {
+    height: auto;
+    max-width: 70px;
+}
+
+.wpsa-settings-separator {
+    background: #ccc;
+    border: 0;
+    color: #ccc;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    width: 99%;
+}
+
+.group .form-table input.color-picker {
+    max-width: 100px;
+}
